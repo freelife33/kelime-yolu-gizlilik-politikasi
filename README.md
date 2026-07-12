@@ -1,0 +1,1 @@
+# kelime-yolu-gizlilik-politikasi
