@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -50,6 +51,13 @@
     }
     a { color: #8a4b1f; }
     ul { padding-left: 1.2rem; }
+    code {
+      font-family: Consolas, Monaco, monospace;
+      font-size: 0.92em;
+      background: #f0e6d8;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -57,8 +65,10 @@
     <div class="card">
       <h1>Kelime Yolu Gizlilik Politikası</h1>
       <p class="meta">
-        Uygulama: <strong>Kelime Yolu</strong> (Android paket adı: <code>com.kelimeyolu.app</code>)<br />
-        Son güncelleme: 12 Temmuz 2026
+        Uygulama: <strong>Kelime Yolu</strong><br />
+        Android paket adı: <code>com.kelimeyolu.app</code><br />
+        Son güncelleme: 12 Temmuz 2026<br />
+        İletişim: <a href="mailto:ademdigil33@gmail.com">ademdigil33@gmail.com</a>
       </p>
 
       <p>
@@ -70,8 +80,8 @@
       <h2>1. Kim olduğumuz</h2>
       <p>
         Kelime Yolu, Türkçe kelime bulma / bulmaca tarzı bir mobil oyundur.
-        Geliştirici iletişim: <a href="mailto:destek@kelimeyolu.app">destek@kelimeyolu.app</a>
-        <!-- Yayına çıkmadan önce bu e-postayı gerçek kullandığın adrese değiştir. -->
+        Geliştirici iletişim adresi:
+        <a href="mailto:ademdigil33@gmail.com">ademdigil33@gmail.com</a>
       </p>
 
       <h2>2. Topladığımız / tuttuğumuz veriler</h2>
@@ -82,8 +92,9 @@
         <li>Ayar tercihleri (ses, müzik, titreşim)</li>
       </ul>
       <p>
-        Bu veriler hesabınıza bağlanmaz; sunucumuza gönderilmez. Cihazınızda yerel olarak saklanır.
-        Uygulamayı silerseniz bu yerel veriler genellikle cihazdan silinir.
+        Bu veriler bir kullanıcı hesabına bağlanmaz ve geliştirici sunucusuna gönderilmez.
+        Cihazınızda yerel olarak saklanır. Uygulamayı silerseniz bu yerel veriler
+        genellikle cihazdan kaldırılır.
       </p>
 
       <p><strong>2.2. Toplamadığımız veriler</strong></p>
@@ -102,16 +113,17 @@
       <ul>
         <li>
           Uygulama çocukların da ilgisini çekebilecek bir görsel dile sahiptir.
-          Bu nedenle reklamlar, mümkün olduğunca <strong>çocuklara yönelik / aile güvenli</strong>
-          yapılandırmalarla (ör. child-directed / Families uyumlu reklam birimleri) sunulmaya çalışılır.
+          Bu nedenle reklamlar, mümkün olduğunca çocuklara yönelik / aile güvenli
+          yapılandırmalarla (ör. child-directed / Families uyumlu reklam birimleri)
+          sunulmaya çalışılır.
         </li>
         <li>
-          Reklam sağlayıcıları, reklam göstermek ve kötüye kullanımı önlemek için cihaz kimliği,
-          IP adresi, yaklaşık konum (ağ tabanlı), reklam etkileşimi gibi teknik verileri
-          kendi gizlilik politikalarına göre işleyebilir.
+          Reklam sağlayıcıları; reklam göstermek, ölçümlemek ve kötüye kullanımı önlemek için
+          cihaz kimliği, IP adresi, yaklaşık konum (ağ tabanlı) ve reklam etkileşimi gibi
+          teknik verileri kendi gizlilik politikalarına göre işleyebilir.
         </li>
         <li>
-          Google’ın reklam ve gizlilik bilgileri için:
+          Google’ın reklam ve gizlilik bilgileri:
           <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
         </li>
       </ul>
@@ -134,18 +146,21 @@
         <li>Oyunun çalışması ve ilerlemenin kaydı (yerel)</li>
         <li>Tercihlerin hatırlanması (yerel)</li>
         <li>Reklam gösterimi ve ödüllü reklamların çalışması (reklam SDK’sı)</li>
-        <li>Hata ayıklama / kararlılık (yalnızca ileride analitik eklenirse; eklenirse bu metin güncellenir)</li>
       </ul>
+      <p>
+        Şu anda ayrı bir analitik / çökme raporlama servisi kullanılmamaktadır.
+        İleride eklenirse bu politika güncellenir.
+      </p>
 
       <h2>6. Veri paylaşımı</h2>
       <p>
-        Oyun ilerlemenizi satmayız. Veri paylaşımı yalnızca hizmetin çalışması için gerekli
-        üçüncü taraflarla (ör. reklam ağı, uygulama mağazası) sınırlıdır.
+        Oyun ilerlemenizi satmayız. Paylaşım yalnızca hizmetin çalışması için gerekli
+        üçüncü taraflarla (ör. reklam ağı, Google Play) sınırlıdır.
       </p>
 
       <h2>7. Saklama süresi</h2>
       <ul>
-        <li>Yerel oyun verileri: uygulamayı kaldırana veya verileri temizleyene kadar</li>
+        <li>Yerel oyun verileri: uygulamayı kaldırana veya uygulama verilerini temizleyene kadar</li>
         <li>Reklam / teknik veriler: ilgili reklam sağlayıcının politikasına göre</li>
       </ul>
 
@@ -160,7 +175,10 @@
       <ul>
         <li>Uygulamayı kaldırarak yerel verileri silebilirsiniz</li>
         <li>Cihaz ayarlarından reklam tercihlerini yönetebilirsiniz</li>
-        <li>Sorularınız için bize yazabilirsiniz: <a href="mailto:destek@kelimeyolu.app">destek@kelimeyolu.app</a></li>
+        <li>
+          Sorularınız için:
+          <a href="mailto:ademdigil33@gmail.com">ademdigil33@gmail.com</a>
+        </li>
       </ul>
 
       <h2>10. Bu politikanın güncellenmesi</h2>
@@ -172,9 +190,9 @@
       <h2>11. İletişim</h2>
       <p>
         Gizlilik ile ilgili sorularınız için:<br />
-        E-posta: <a href="mailto:destek@kelimeyolu.app">destek@kelimeyolu.app</a><br />
+        E-posta: <a href="mailto:ademdigil33@gmail.com">ademdigil33@gmail.com</a><br />
         Uygulama: Kelime Yolu<br />
-        Paket: com.kelimeyolu.app
+        Paket: <code>com.kelimeyolu.app</code>
       </p>
     </div>
   </main>
